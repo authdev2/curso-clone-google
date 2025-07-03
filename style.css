@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+.navbar nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 15x;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.imgage img{
+    width: 60px;
+}
+
+.btns button{
+    border: none;
+    background: transparent;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.btns button img{
+    width: 20px;
+}
+
+.imgage img{
+    width: 40px;
+}
+
+.container-pesquisa{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.test{
+    position: relative;
+}
+.img-container img{
+    width: 400px;
+}
+
+.input-pesquisa input{
+    padding: 20px;
+    border: 1px solid #EBEBEB;
+    box-shadow: #8b8b8b 1px 1px 5px;
+    width: 550px;
+    max-width: 550px;
+    border-radius: 40px;
+}
+
+.icons{
+    position: absolute;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    right: 0;
+    margin-right: 30px;
+}
+
+.icons button{
+    background: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.icons button img{
+    width: 25px;
+    color: white;
+}
+
+.recent-pesquisas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.box{
+    background-color: #F1F1F1;
+    padding: 15px;
+    border-radius: 20px;
+    color: #6e6d6e;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:600px) {
+.input-pesquisa input{
+    width: 450px;
+}
+}
+
+@media screen and (max-width:450px) {
+.input-pesquisa input{
+    width: 350px;
+}
+}
